@@ -1,0 +1,29 @@
+body{
+    font-family: monospace;
+    font-size: larger;
+    justify-content:center;
+    display: flex;
+    margin-top: 7%;
+    background-color: black;
+    color:white;
+}
+table{
+    border: 3px double white;
+    background-color: black;
+}
+.Cartela{
+    border-radius: 6px;
+}
+td{
+    font-size: 70PX;
+    border: 2px double white;
+    text-align: center;
+    border-radius: 45px;
+    cursor:pointer;
+    
+}
+.Letra{
+    border: none;
+    background-color: black;
+    color: white;
+}
