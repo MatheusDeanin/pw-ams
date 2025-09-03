@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendedno javascript</title>
+    <title>Aprendendo javascript</title>
 </head>
 <body>
     <h1>Javascript</h1>
+    <button onclick="Somar()">
+        Clique aqui para fazer a soma
+    </button>
+    <button onclick="Subtracao()">
+        Clique aqui para fazer a subtração
+    </button>
+    <button onclick="mult()">
+        Clique aqui para fazer a multiplicação
+    </button>
+    <button onclick="div()">
+        Clique aqui para fazer a divisão
+    </button>
+
+
+    <!-- <button onclick="pao()">
+        Aperte para fazer o pão
+    </button> -->
     <script>
     //     var idade=18
     //     let nome="Matheus Deanin"
@@ -33,7 +50,7 @@
     // console.log("A soma é "+soma)
 
     //document.write("Aqui estou escrevendo no documento!!")
-    
+    /*
      var idade=Number(prompt("Digite sua idade: "))
      if (idade>=18){
          alert("deve votar")
@@ -44,7 +61,59 @@
      else{
         alert("pode votar")
      }
+     */
 
+    //  for(let i=0; i<10; i++){
+    //     document.write(`Interação numero ${i} <br/>`)
+    //  }
+    //  let i =0
+    // while(i<10){
+    //     document.write(`Interação com while numero ${i} <br/>`)
+    //     i++
+    // }
+    function Somar(a,b){
+        a = +prompt("Digita um valor: ")
+        b = +prompt("Digita outro ai: ")
+        let soma= a+b
+        alert(soma)
+    }
+    function Subtracao(a,b){
+        a = +prompt("Digita um valor: ")
+        b = +prompt("Digita outro ai: ")
+        let sub=a-b
+        alert(sub)
+    }
+    function mult(a,b){
+        a = +prompt("Digita um valor: ")
+        b = +prompt("Digita outro ai: ")
+        let mult= a*b
+        alert(mult)
+    }
+    function div(a,b){
+        a = +prompt("Digita um valor: ")
+        b = +prompt("Digita outro ai: ")
+        let div=a/b
+        alert(div)
+    }
+    operacao=prompt("Qual operação deseja fazer? (+,-,*,/)")
+    if(operacao==="+"){
+        Somar()
+    }
+    else if(operacao==="-"){
+        Subtracao()
+    }
+    else if(operacao==="*"){
+        mult()
+    }
+    else if(operacao==="/"){
+        div()
+    }
+    else{
+        alert("Comando não atendido")
+    }
+    function pao(){
+        document.write('<img src="Bread_JE3_BE3.png">')
+    }
 
 
     </script>
