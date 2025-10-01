@@ -19,43 +19,56 @@
                 </div>
             </tr>
             <tr>
-                <td>12</td>
-                <td>24</td>
-                <td>36</td>
-                <td>46</td>
-                <td>72</td>
+                <td id="B1" onclick="Clicou(this)">12</td><!--B-->
+                <td id="I1" onclick="Clicou(this)">24</td><!--I-->
+                <td id="N1" onclick="Clicou(this)">36</td><!--N-->
+                <td id="G1" onclick="Clicou(this)">46</td><!--G-->
+                <td id="O1" onclick="Clicou(this)">72</td><!--O-->
             </tr>
             <tr>
-                <td>13</td>
-                <td>25</td>
-                <td>36</td>
-                <td>49</td>
-                <td>75</td>
+                <td id="B2"onclick="Clicou(this)">13</td>
+                <td id="I2"onclick="Clicou(this)">25</td>
+                <td id="N2"onclick="Clicou(this)">36</td>
+                <td id="G2"onclick="Clicou(this)">49</td>
+                <td id="O2"onclick="Clicou(this)">75</td>
             </tr>
             <tr>
-                <td>10</td>
-                <td>22</td>
-                <td>31</td>
-                <td>51</td>
-                <td>69</td>
+                <td id="B3"onclick="Clicou(this)">10</td>
+                <td id="I3"onclick="Clicou(this)">22</td>
+                <td id="N3"onclick="Clicou(this)">31</td>
+                <td id="G3"onclick="Clicou(this)">51</td>
+                <td id="O3"onclick="Clicou(this)">69</td>
             </tr>
             <tr>
-                <td>9</td>
-                <td>18</td>
-                <td>42</td>
-                <td>60</td>
-                <td>66</td>
+                <td id="B4"onclick="Clicou(this)">9</td>
+                <td id="I4"onclick="Clicou(this)">18</td>
+                <td id="N4"onclick="Clicou(this)">42</td>
+                <td id="G4"onclick="Clicou(this)">60</td>
+                <td id="O5"onclick="Clicou(this)">66</td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>26</td>
-                <td>40</td>
-                <td>53</td>
-                <td>74</td>
+                <td id="B5"onclick="Clicou(this)">1</td>
+                <td id="I5"onclick="Clicou(this)">26</td>
+                <td id="N4"onclick="Clicou(this)">40</td>
+                <td id="G4"onclick="Clicou(this)">53</td>
+                <td id="O5"onclick="Clicou(this)">74</td>
             </tr>
         </table>
 
     </div>
+    <script>
+        var contagem=0
+        function Clicou(elemento)
+        {
+            if(elemento.style.backgroundColor== "green"){
+            elemento.style.backgroundColor= "aliceblue"
+
+            }
+            else{
+                elemento.style.backgroundColor= "green"
+            }
+        }
+    </script>
     
 </body>
 </html>

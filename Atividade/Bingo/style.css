@@ -4,26 +4,29 @@ body{
     justify-content:center;
     display: flex;
     margin-top: 7%;
-    background-color: black;
-    color:white;
+    background-color: aqua;
+    color:black;
+    user-select: none;
 }
 table{
-    border: 3px double white;
-    background-color: black;
+    border: 3px double;
+    background-color: aliceblue;
 }
 .Cartela{
     border-radius: 6px;
 }
 td{
     font-size: 70PX;
-    border: 2px double white;
+    border: 2px double aqua;
     text-align: center;
-    border-radius: 45px;
+    border-radius: 15px;
     cursor:pointer;
     
 }
 .Letra{
+
     border: none;
-    background-color: black;
-    color: white;
+    background-color:aliceblue;
+    color: black;
 }
+
